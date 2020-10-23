@@ -1,0 +1,137 @@
+/* Andr7st */
+
+@font-face{
+    font-family: "Fuente_local";
+    src:url(../fonts/PT_Serif/PTSerif-Regular.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondo_2{background-image: url("https://i.imgur.com/BpdK6zT.jpg");}
+.fondo_1{
+    background-image: url("https://i.imgur.com/Ezb18aI.jpg");
+}
+
+.grupo-elprogamador{
+
+    -moz-user-select: none;
+    -ms-user-select: none; /* Warning */
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;/* Warning */
+
+
+
+
+
+
+    font-family: "Fuente_local";
+    background-image: url("https://i.imgur.com/6u9U7DG.jpg");  
+    /*justify-content: center; */    
+    padding-top: 0.25em; /* 4px */
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 33.75em; /* 540px;   */
+    color: rgb(255, 255, 255);
+}
+
+.descripcion{
+    color: rgb(255, 255, 255);
+    background-color: rgba(107, 101, 101, 0.308);
+    border-radius: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 1em; /* 16px = 1em */
+    padding: 1em;
+    justify-content: space-around;
+    border: 5px;
+
+}
+.regla{
+    background-color: rgba(107, 101, 101, 0.308);
+    border-radius: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-around;
+    border: 5px;
+}
+.descripcion > h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.6em;
+}
+.descripcion > p {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+.regla > p{
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+.regla-icono{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+.vincular{
+    background-color: rgba(107, 101, 101, 0.308);
+    border-radius: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 1em;
+    padding: 1em;
+    justify-content: space-around;
+    border: 5px;
+}
+
+a{
+    text-decoration: none; 
+    background: rgb(110, 107, 110);
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+.vincular > p {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+
+
+
+
+/* 
+@media screen and (max-width:800px){
+
+    .reglas{
+        margin-top: 5px;
+    }
+    .regla{
+        width: 80%;
+    }
+
+}
+
+ */
